@@ -366,3 +366,59 @@ button {
 .about_text_padding_2 {
   padding: 0px 0 135px;
 }
+.how-to_block {
+  background-color: #faf7f5;
+  height: 670px;
+  padding: 135px 0;
+}
+.how-to-logo {
+  margin: 0 0 120px;
+}
+.how-to-picture-block {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture-message {
+  background-image: url(../translateproject/svg/webinar_mail-01-01.svg);
+  border: #4753ff solid 2px;
+  border-radius: 50%;
+  width: 103px;
+  height: 103px;
+}
+.picture-face {
+  background-image: url(https://static.tildacdn.com/tild6266-3463-4466-a631-323861643939/webinar_mail-01-02.svg);
+  border: #4753ff solid 2px;
+  border-radius: 50%;
+  width: 103px;
+  height: 103px;
+}
+.picture-machine {
+  background-image: url(https://static.tildacdn.com/tild3461-3365-4265-b235-383065623364/webinar_mail-01-03.svg);
+  border: #4753ff solid 2px;
+  border-radius: 50%;
+  width: 103px;
+  height: 103px;
+}
+.picture-list {
+  background-image: url(https://static.tildacdn.com/tild6237-3632-4664-a530-383235666230/webinar_mail-01-04.svg);
+  border: #4753ff solid 2px;
+  border-radius: 50%;
+  width: 103px;
+  height: 103px;
+}
+.block-dots {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
+}
+.dot {
+  background-color: #4753ff;
+  border: #4753ff solid 2px;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+}
