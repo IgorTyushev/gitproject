@@ -366,7 +366,7 @@ button {
 .about_text_padding_2 {
   padding: 0px 0 135px;
 }
-.how-to_block {
+.how-to_page {
   background-color: #faf7f5;
   height: 670px;
   padding: 135px 0;
@@ -379,8 +379,57 @@ button {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+.how-to-inner {
+  max-width: 260px;
+  margin: 0 20px;
+}
+.how-to-content-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b1 {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
 }
 
+.block-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 50px;
+  position: absolute;
+  width: 156px;
+  left: -150px;
+}
+.dot {
+  background-color: #4753ff;
+  border: #4753ff solid 2px;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+}
+.how-to-aside {
+  margin-top: 25px;
+  text-align: center;
+}
+.how-to-inner-logo {
+  line-height: 1.35;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.how-to-inner-undertext {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #000;
+  font-size: 14px;
+  margin-top: 15px;
+}
 .picture-message {
   background-image: url(../translateproject/svg/webinar_mail-01-01.svg);
   border: #4753ff solid 2px;
@@ -409,16 +458,67 @@ button {
   width: 103px;
   height: 103px;
 }
-.block-dots {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 50px;
+.form-page {
+  height: 1300px;
+  padding: 135px 0;
+  width: 1200px;
+  margin: 0 auto;
 }
-.dot {
-  background-color: #4753ff;
-  border: #4753ff solid 2px;
-  border-radius: 50%;
-  width: 4px;
-  height: 4px;
+.form-page-logo {
+  margin: 0 0 30px;
+}
+.form-page-underlogo {
+  color: #a4a4a4;
+  margin: 0 0 75px;
+}
+.form-inputsblocks {
+  width: 1200px;
+}
+.form-element {
+  margin: 0 auto 26px;
+  width: 760px;
+}
+.intput-block {
+}
+.input-form {
+  width: 100%;
+  height: 60px;
+  border: #faf7f5;
+  outline: none;
+  background: #faf7f5;
+  padding: 26px 20px 10px;
+}
+.input-form::placeholder {
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1;
+}
+.section-translate {
+  width: 100%;
+  height: 60px;
+  border: #faf7f5;
+  outline: none;
+  background: #faf7f5;
+  padding: 0 45px 0 20px;
+}
+textarea {
+  width: 100%;
+  height: 67px;
+  border: #faf7f5;
+  outline: none;
+  background: #faf7f5;
+  padding: 26px 20px 10px;
+}
+textarea::placeholder {
+  opacity: 0.5;
+}
+textarea#last-comm {
+  height: 102px;
+  margin: 0;
+}
+
+.form-inputsblocks {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
 }
